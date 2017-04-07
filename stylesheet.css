@@ -1,0 +1,275 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+  	font-size: 100%;
+  	min-height: 100%;
+}
+
+body {
+	background: url(imagery/Ye_Olde_Murdyr_Mysterie_logo.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	max-width: 100%;
+  	height: auto;
+	position:relative;
+	background-color: black;
+	/* transition on change */
+	opacity: 1;
+	transition: 3s opacity;
+	font: 100%/1.4 Arial, sans-serif;
+	margin: 0rem;
+	padding: 0;
+}
+
+body.whiteScreen {
+  opacity: 0;
+  transition: none;
+}
+
+
+/* ---- Wrapper ----*/
+#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	border: auto;
+	padding: auto;
+	max-width: 960px;
+	height: auto;
+	background-color: rgba(0, 0, 0, .25);
+}
+
+#headerArea {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	background-color: #f2f2f2;
+	color: white;
+}
+
+.mainLogo {
+	size: 90%;
+    background-color: 
+    height: auto;
+    width: auto; /* ie8 */
+    padding-top: .5rem;
+}
+
+#mainNav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	background-color: #27012C;
+	color: #f49a3a;	
+}
+
+#mainContent {
+	width: 100%;
+	height: 1024px;
+	background-color: #f2f2f2;
+	color: #162C01;
+}
+
+#asideContent {
+	display: flex;
+	justify-content: flex-start;
+	max-width: 200px;
+	background-color: #552E71;
+	color: #f2f2f2;
+	padding: 5px;
+}
+
+#footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	background-color: #27012C;
+	color: #f2f2f2;
+	padding: 1rem;
+}
+
+hr {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+/* ---- Header ----*/
+h1 {
+
+}
+
+h2 {
+	font-family: "Inika-Bold", sans-serif;
+}
+
+h3 {
+	color: #162C01;
+	font-family: "IndubitablyNF", sans-serif;
+	letter-spacing: 1px;
+	font-size: 125%;
+	margin: .5rem;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+
+/* ---- Navigation ---- */
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+    line-height: 2rem;
+    padding: 0 0 0 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    font-family: "Medusa Gothic", sans-serif;
+    border: 1px solid #552E71;
+    padding-left: .5rem;
+    padding-right: .5rem; 
+}
+
+a {
+	color: #f2f2f2;
+  	text-decoration: none;
+  	font-weight: bold;
+  	margin-right: 1rem;
+    margin-left: .1rem;
+    border: 0;
+    padding: 0;
+}
+
+
+/* ---- Responsive ---- */
+@media screen and (min-width: 320px) {
+    body {
+        background-color: white;
+     }
+
+     #mainNav {
+     	font-size: 50%;
+     }
+}
+
+@media screen and (min-width: 760px) {
+    body {
+        background-color: white;
+        margin: 1px;
+        padding: 1px;
+    }
+
+     #mainNav {
+     	font-size: 65%;
+     }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: black;
+    }
+
+     #mainNav {
+     	font-size: 80%;
+     }
+}
+
+/* ---- Hamburger Menu 
+
+html {
+  height: 2000px;
+}
+.mobile {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.mobile div {
+  display: none;
+}
+.mobile button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: 0;
+  text-indent: 200%;
+  overflow: hidden;
+  background: rgba(255,255,255,0.8) url("http://i.imgur.com/vKRaKDX.png") center no-repeat;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-size: 80%;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.mobile button.expanded {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  background-color: transparent;
+  border: 0;
+}
+.mobile a {
+  display: block;
+}
+a {
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover,
+a:active,
+a:focus {
+}
+.desktop {
+  display: block;
+  overflow: hidden;
+}
+.desktop a {
+}
+
+.desktop a:last-child {
+  border-right: none;
+}
+
+@media (max-width: 800px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+}
+----*/
+
+
+
+
+
+
