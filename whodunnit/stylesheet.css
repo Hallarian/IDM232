@@ -1,0 +1,503 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "AmericanTypewriter";
+  src: url("fonts/AmericanTypewriter.ttc");
+}
+
+@font-face {
+  font-family: "IndubitablyNF";
+  src: url("fonts/IndubitablyNF.ttf");
+}
+
+@font-face {
+  font-family: "Inika-Bold";
+  src: url("fonts/Inika-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Medusa Gothic";
+  src: url("fonts/Medusa Gothic.otf");
+}
+
+html {
+  	font-size: 100%;
+  	min-height: 100%;
+}
+
+body {
+	background-color: #171419;
+	/* transition on change */
+	opacity: 1;
+	transition: 3s opacity;
+	font: 100%/1.4 Arial, sans-serif;
+	margin: 0rem;
+	padding: 0;
+}
+
+body.whiteScreen {
+  opacity: 0;
+  transition: none;
+}
+
+
+/* ---- Wrapper ----*/
+#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  background-color: #171419;
+}
+
+.headerArea {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+	width: 100%;
+	height: auto;
+	background-color: #eae8e8;
+	color: white;
+}
+
+.purpleBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	width: 100%;
+	height: auto;
+  margin: auto;
+  padding-bottom: 0;
+	background-color: #12001f;
+  color: #f2f2f2;
+}
+
+.topNav {
+  display: flex;
+  align-content: flex-start;
+  max-width: 860px;
+  color: #f49a3a;
+  margin: auto;
+  font-size: 100%;
+}
+
+.bottomNav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  color: #f49a3a;
+  margin: auto;
+  font-size: 100%;
+  border-bottom: 1px solid #f49a3a;
+}
+
+.whiteArea {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: #eae8e8;
+  color: white;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+	background-color: #eae8e8;
+	color: #162C01;
+  max-width: 960px;
+  height: auto;
+  padding: 2rem;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.blackBox {
+  color: white;
+  display: flex;
+  flex-direction:  column;
+  text-align: center;
+  max-width: 960px;
+  height: auto;
+  padding: 0 0 2rem 0;
+}
+
+.outerText {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0rem 0 0rem 0;
+  padding: 0 2rem 0 2rem;
+  font-family: "AmericanTypewriter", sans-serif;
+  word-spacing: .25rem;
+  letter-spacing: .15rem;
+}
+
+.imgBox {
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  height: auto;
+}
+
+.textBox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  height: auto;
+  font-family: "Inika-Bold", sans-serif;
+  letter-spacing: .1rem;
+  padding: 0 0 1rem 0;
+
+}
+
+.galleryContain {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+        .gallery {
+            margin: 0;
+            border: 1px solid #ccc;
+            width: 240px;
+        }
+
+        .gallery:hover {
+            border: 1px solid #f49a3a;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        .desc {
+          color: white;
+          padding: 15px;
+          text-align: center;
+          font-family: "Medusa Gothic", sans-serif;
+          line-height: 1.5rem;
+          letter-spacing: 2px;
+        }
+
+.content {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem 0rem 0;
+  margin: 0;
+  color: #162C01;
+  font-family: "AmericanTypewriter", sans-serif;
+  word-spacing: .25rem;
+  letter-spacing: .15rem;
+}
+
+.asideImage {
+  max-width: 326px;
+  max-height: 223px;
+  margin: 0;
+  padding: 0 0 1rem 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+	max-width: 960px;
+	color: #f2f2f2;
+	padding: 0 1rem 1rem 1rem;
+}
+
+.boxes {
+  max-width: auto;
+  max-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  padding: 1rem;
+}
+
+.contenRowColumn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* ---- Header ----*/
+h1 {
+    text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Medusa Gothic", sans-serif;
+  letter-spacing: 2px;
+  word-spacing: .5rem;
+  margin: 2rem 0 1rem 0;
+  padding: 0 2rem 0 2rem;
+	color: white;
+}
+
+h3 {
+  color: #162C01;
+  text-align: center;
+  font-family: "Inika-Bold", sans-serif;
+  letter-spacing: .05rem;
+  padding: 0;
+  margin: 0 0 0rem 0;
+}
+
+h4 {
+  color: #162C01;
+  text-align: center;
+  font-family: "AmericanTypewriter", sans-serif;
+  font-weight: bold;
+  word-spacing: .25rem;
+  letter-spacing: .15rem;
+  margin: .5rem;
+}
+
+h5 {
+  color: white;
+  font-family: "AmericanTypewriter", sans-serif;
+  letter-spacing: .15rem;
+  word-spacing: .25rem;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0 0 1rem 0;
+
+}
+
+h6 {
+  letter-spacing: .1rem;
+  word-spacing: .25rem;
+  font-weight: lighter;
+  margin: auto;
+  margin: 0rem;
+  padding: 0 0 .5rem 0;
+}
+
+/* ---- Navigation ---- */
+ul {
+    display: inline-flex;
+    justify-content:  space-around;
+    list-style-type: none;
+    line-height: 2rem;
+    padding: 0 0 0 0;
+    margin: 0;
+    width: 960px;
+}
+
+li {
+    font-family: "Medusa Gothic", sans-serif;
+        line-height: 1rem;
+        letter-spacing: 2px;
+    margin: 0;
+    padding: 1rem;
+}
+
+a {
+    color: #f2f2f2;
+  	text-decoration: none;
+  	font-weight: bold;
+    border: 0;
+    padding: 0;
+}
+
+
+
+/* ---- Responsive ---- */
+@media screen and (min-width: 320px) {
+    ul {
+        justify-content:  space-around;
+        width: 320px;
+    }
+     li {
+        font-size: 85%;
+     }
+
+     h5 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+
+    .mobileDisappear {
+      display: none;
+    }
+
+    .imgBox {
+    width: 320px;
+    height: auto;
+    }
+
+    .textBox {
+      margin: 0;
+      width: 320px;
+    }
+
+    .gallery {
+      margin: 0;
+      border: 1px solid #ccc;
+      width: 320px;
+    }
+
+    .mainContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .content {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding-top: 1rem;
+    }
+
+    .boxes {
+      display: flex;
+      flex-direction: row;
+    }
+}
+
+
+
+@media screen and (min-width: 760px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content:  space-around;
+        width: 760px;
+    }
+
+     li {
+     	font-size: 80%;
+     }
+
+    h5 {
+        text-align: left;
+      }
+
+    .content {
+      display: flex;
+      flex-flow: row-reverse nowrap;
+    }
+
+    .mobileDisappear {
+      display: initial;
+    }
+
+    .imgBox {
+    width: 760px;
+    height: auto;
+    }
+
+    .textBox {
+      margin: 0;
+      width: 320px;
+    }
+
+    .gallery {
+      margin: 0;
+      border: 1px solid #ccc;
+      width: 240px;
+    }
+
+    .asideImage {
+      border: 1px solid #f49a3a;
+    }
+
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+
+    .boxes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    ul {
+        justify-content:  space-around;
+        width: 960px;
+    }
+
+     li {
+     	font-size: 75%;
+     }
+      h5 {
+        text-align: left;
+      }
+
+    .mobileDisappear {
+      display: initial;
+    }
+
+    .imgBox {
+    width: 960px;
+    height: auto;
+    }
+
+    .textBox {
+      margin: 0;
+      width: 320px;
+    }
+
+    .gallery {
+      margin: 0;
+      border: 1px solid #ccc;
+      width: 240px;
+    }
+
+    .content {
+            display: flex;
+            flex-flow: row-reverse nowrap;
+    }
+
+    .asideImage {
+      border: 1px solid #f49a3a;
+    }
+
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+
+    .boxes {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 1rem;
+    }
+}
