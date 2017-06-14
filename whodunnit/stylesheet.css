@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -23,18 +23,18 @@
 }
 
 html {
-  	font-size: 100%;
-  	min-height: 100%;
+    font-size: 100%;
+    min-height: 100%;
 }
 
 body {
-	background-color: #171419;
-	/* transition on change */
-	opacity: 1;
-	transition: 3s opacity;
-	font: 100%/1.4 Arial, sans-serif;
-	margin: 0rem;
-	padding: 0;
+  background-color: #171419;
+  /* transition on change */
+  opacity: 1;
+  transition: 3s opacity;
+  font: 100%/1.4 Arial, sans-serif;
+  margin: 0rem;
+  padding: 0;
 }
 
 body.whiteScreen {
@@ -45,32 +45,32 @@ body.whiteScreen {
 
 /* ---- Wrapper ----*/
 #main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #171419;
 }
 
 .headerArea {
-	display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
-	width: 100%;
-	height: auto;
-	background-color: #eae8e8;
-	color: white;
+  width: 100%;
+  height: auto;
+  background-color: #eae8e8;
+  color: white;
 }
 
 .purpleBox {
   display: flex;
   flex-direction: column;
   align-items: center;
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
   margin: auto;
   padding-bottom: 0;
-	background-color: #12001f;
+  background-color: #12001f;
   color: #f2f2f2;
 }
 
@@ -100,16 +100,35 @@ body.whiteScreen {
   height: auto;
   background-color: #eae8e8;
   color: white;
+  padding: 2rem 0 0 0;
+}
+
+.showList {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.thumbNail {
+  margin: 0 1rem 0 0;
+  border: 2px solid #f49a3a;
+}
+
+.thumbDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .mainContent {
   display: flex;
   flex-direction: column;
-	background-color: #eae8e8;
-	color: #162C01;
+  background-color: #eae8e8;
+  color: #162C01;
   max-width: 960px;
   height: auto;
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
 }
 
 .headline {
@@ -215,9 +234,9 @@ body.whiteScreen {
 .footer {
   display: flex;
   justify-content: space-around;
-	max-width: 960px;
-	color: #f2f2f2;
-	padding: 0 1rem 1rem 1rem;
+  max-width: 960px;
+  color: #f2f2f2;
+  padding: 0 1rem 1rem 1rem;
 }
 
 .boxes {
@@ -247,7 +266,7 @@ h2 {
   word-spacing: .5rem;
   margin: 2rem 0 1rem 0;
   padding: 0 2rem 0 2rem;
-	color: white;
+  color: white;
 }
 
 h3 {
@@ -310,12 +329,15 @@ li {
 
 a {
     color: #f2f2f2;
-  	text-decoration: none;
-  	font-weight: bold;
+    text-decoration: none;
+    font-weight: bold;
     border: 0;
     padding: 0;
 }
 
+p {
+  font-family: "AmericanTypewriter", sans-serif;
+}
 
 
 /* ---- Responsive ---- */
@@ -360,6 +382,7 @@ a {
       justify-content: flex-end;
     }
 
+
     .content {
       display: flex;
       flex-flow: column nowrap;
@@ -391,7 +414,7 @@ a {
     }
 
      li {
-     	font-size: 80%;
+      font-size: 80%;
      }
 
     h5 {
@@ -451,7 +474,7 @@ a {
     }
 
      li {
-     	font-size: 75%;
+      font-size: 75%;
      }
       h5 {
         text-align: left;

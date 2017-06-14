@@ -17,8 +17,6 @@
  -->
   		<link rel="stylesheet" type="text/css" href="stylesheet.css">
   		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-		<script src="javascript.js"></script>
 
 	</head>
 <body>
@@ -52,38 +50,28 @@
       </div><!-- outerBox END -->
     </div><!-- blackBox END -->
 
-
-    <div class="whiteArea">
-    <div class="mainContent">
-      
-      <div class="headline">
-        <h3>Booking 2017 Holiday Parties Now</h3>
-      </div><!-- headline END -->
-      <div class="content">
-        <div class="paragraph">
-          All shows available for private parties. 
-          Reserve early for parties, groups &amp; corporate functions!
-        </div><!-- paragraph END-->
-      </div><!-- content END -->
+<div class="whiteArea">
+  <div class="mainContent">
+    <?php include 'includes/_showList.php'; ?>
+    <p>
+    <div class="headline">
+      <h3>Most public shows at the Bristol Bar &amp; Grille Downtown<br>
+      614 West Main Street, Louisville, KY.
       <br>
+      Seating at 6:30 / Show starts at 7:00</h3>
+    </div><!-- headline END -->
 
-      <div class="headline">
-        <h3>Most public shows at the Bristol Bar &amp; Grille Downtown<br>
-        614 West Main Street, Louisville, KY.
-        <br>
-        Seating at 6:30 / Show starts at 7:00</h3>
-      </div><!-- headline END -->
-      <div class="content">
-        <div class="paragraph">
-          Tickets are $48 each for 1-5 guests at a table. Discounted tickets are for 6 or more guests in a party. This price includes meal, show, tax and gratuity. Save $ and get preferred seating with a Season Ticket!
-          Discounts for group seating.
-          <p>
-          Call WhoDunnit at (502) 538-4100.
-        </div><!-- paragraph END-->
-      </div><!-- content END -->
+    <div class="content">
+      <div class="paragraph">
+        Tickets are $48 each for 1-5 guests at a table. Discounted tickets are for 6 or more guests in a party. This price includes meal, show, tax and gratuity. Save $ and get preferred seating with a Season Ticket!
+        Discounts for group seating.
+        <p>
+        Call WhoDunnit at (502) 538-4100.
+      </div><!-- paragraph END-->
+    </div><!-- content END -->
 
-    </div><!-- mainContent END -->
-    </div><!-- whiteArea END -->
+  </div><!-- mainContent END -->
+</div><!-- whiteArea END -->
 
 <!--
    _____                                  
@@ -108,6 +96,9 @@
  |_|  \___/ \___/ \__\___|_|
  -->
     <?php include 'includes/_footer.php'; ?>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="javascript.js"></script>
 
 </body>
 </html>
