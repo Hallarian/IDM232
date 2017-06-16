@@ -20,8 +20,9 @@
 
   <div class="showList">
     <div class="thumbNail">
-      <img src="<?php echo $row['image']; ?>" alt="<?php echo $row['name']; ?>" style="max-width: 115px;">
+      <img src="<?php echo $row['image']; ?>" alt="<?php echo $row['name']; ?>">
     </div>
+    <br>
     <div class="thumbDesc">
       <h3><?php echo $row['name']; ?></h3>
       <p><?php echo $row['description']; ?></p>

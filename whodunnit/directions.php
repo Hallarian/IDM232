@@ -1,6 +1,6 @@
 <?php require_once 'includes/config.php'; ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
     	<meta charset="utf-8"/>
   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,9 +48,7 @@
         <div class="desc">
           Bristol Bar &amp; Grille<h6>614 W. Main Street<br>Louisville, KY 40202<br>Phone: 502-582-1995</h6>
           <p>
-          <div class="imgBox">
           <img src="imagery/Bristol_Bar.jpg" alt="Bristol_Bar">
-          </div>
         </div>
       </div><!-- outerBox END -->
     </div><!-- blackBox END -->

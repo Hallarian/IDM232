@@ -1,6 +1,6 @@
 <?php require_once 'includes/config.php'; ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
     	<meta charset="utf-8"/>
   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,8 +15,8 @@
  | |__| |____) / / | |____ ____) |___) |
   \____/|_____/_/   \_____|_____/_____/
  -->
-  		<link rel="stylesheet" type="text/css" href="stylesheet.css">
   		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 	</head>
 <body>
@@ -43,7 +43,7 @@
     <div class="blackBox">
       <h2>Now Playing</h2>
       <div class="outerText">
-        <div class="imgBox"><a target="_blank" href="imagery/ye_olde_new.jpg"><img src="imagery/ye_olde_new.jpg" alt="ye_olde_new" style="max-width: 760px;"></a></div>
+        <div class="imgBox"><a target="_blank" href="imagery/ye_olde_new.jpg"><img src="imagery/ye_olde_new.jpg" alt="ye_olde_new"></a></div>
           <div class="desc">Ye Olde Murder Mystery<h6>Saturday Evenings, May 12–June 23</h6>
           </div>
           Step back in time to 1908, the era of the greatest mystery stories ever told! Who killed the evil duke Harry Hollingsworth, and why? Are others in danger? And how does La Curèe, the mysterious masterpiece of art, come into play? Match wits with WhoDunnit’s favorite detective Dr. Angus MacCrimmon, as he returns to solve his newest, most challenging and most intriguing mystery ever!
@@ -53,7 +53,7 @@
 <div class="whiteArea">
   <div class="mainContent">
     <?php include 'includes/_showList.php'; ?>
-    <p>
+    
     <div class="headline">
       <h3>Most public shows at the Bristol Bar &amp; Grille Downtown<br>
       614 West Main Street, Louisville, KY.

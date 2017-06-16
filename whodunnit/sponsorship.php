@@ -100,6 +100,7 @@
 
     </div><!-- mainContent END -->
     </div><!-- whiteArea END -->
+  </div><!-- Main END -->
     <!--
      ______          _            
     |  ____|        | |           

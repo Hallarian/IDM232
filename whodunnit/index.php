@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php require_once 'includes/config.php'; ?>
-<html>
+<html lang="en">
 	<head>
     	<meta charset="utf-8"/>
   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,8 +17,6 @@
  -->
   		<link rel="stylesheet" type="text/css" href="stylesheet.css">
   		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-		<script src="javascript.js"></script>
 
 	</head>
 <body>
@@ -64,7 +62,7 @@
 	      </div><!-- headline END -->
 
 	    	<div class="content">
-		        <div class="asideImage"><img src="imagery/card_game.jpg" alt="card game"></div>
+		        <img src="imagery/card_game.jpg" alt="card game">
 		        <p>
 		        <div class="paragraph">WhoDunnit shows are original, lively and thoroughly enertaining, as well as a mystery lover's dream!
 		        <p>
@@ -99,5 +97,7 @@
  -->
 		<?php include 'includes/_footer.php'; ?>
 
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src="javascript.js"></script>
 </body>
 </html>
